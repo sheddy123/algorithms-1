@@ -10,7 +10,7 @@ public class Solution {
     public static void main(String[] args) {
         System.out.println("Hello Cyclic Rotation");
         Solution s = new Solution();
-        int[] arr = new int[]{3, 8, 9, 7, 6};
+        int[] arr = new int[]{1,2,3,4,5,6,7};
         int[] res = s.solution(arr, 3);
         for (int i: res) {
             System.out.print(i + ", ");
